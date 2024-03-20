@@ -639,7 +639,13 @@ h3 .my-profession{
         max-width: 100%;
     }
     .home .home-img{
-        display: none;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home .home-img img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .aside .nav-toggler {
         display: flex;
